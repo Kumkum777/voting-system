@@ -52,10 +52,11 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
       body {
         text-align: center;
         background: linear-gradient(rgb(4, 66, 88), rgb(21, 52, 83));
-        height: 130vh;
+        height: 100vh;
       }
       body h1 {
-        margin: 40px 0px;
+        margin-bottom: 30px;
+        margin-top:5px;
       }
       body hr {
         margin-bottom: 20px;
@@ -124,6 +125,11 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
           width: 320px;
           height: 100%;
         }
+         body {
+        text-align: center;
+        background: linear-gradient(rgb(4, 66, 88), rgb(21, 52, 83));
+        height: 130vh;
+      }
       }
     </style>
   </head>

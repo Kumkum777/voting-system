@@ -19,10 +19,10 @@ else{
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <style>
+
       body {
         text-align: center;
         background: linear-gradient(rgb(4, 66, 88), rgb(21, 52, 83));
-        
       }
       body h1 {
         margin: 30px 0px;
@@ -66,6 +66,7 @@ else{
       }
       .main {
         background-color: rgba(252, 252, 252, 1);
+         box-shadow: 0 8px 25px rgba(0, 0, 0, 1);
         display: flex;
         flex-direction: row;
         margin: 10px 10%;

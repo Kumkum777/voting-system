@@ -53,6 +53,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
       body h1 {
         margin: 20px 0px;
       }
+      body hr{
+        margin-bottom: 60px;
+      }
       .main{
         display: flex;
         justify-content: center;
